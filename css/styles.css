@@ -1,0 +1,19 @@
+h1 {
+    text-align: center;
+    font-size: 56px;
+    color: rgb(22, 22, 22);
+    font-family: 'Poppins', 'Calibri', 'serif';
+    font-weight: 500;
+    background-color: azure;
+}
+
+ul {
+    font-size: 28px;
+    font-family: 'Raleway', 'Gandhi serif', 'serif';
+    color: black;
+    background-color: azure;
+}
+
+* {
+    background-color: azure;
+}
