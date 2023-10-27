@@ -4,16 +4,32 @@ h1 {
     color: rgb(22, 22, 22);
     font-family: 'Poppins', 'Calibri', 'serif';
     font-weight: 500;
-    background-color: azure;
+    margin: 8px auto;
 }
 
 ul {
     font-size: 28px;
     font-family: 'Raleway', 'Gandhi serif', 'serif';
     color: black;
-    background-color: azure;
 }
 
-* {
+li {
+    padding: 4px 0px;
+}
+
+body {
+    background-color:rgb(251, 237, 252);
+}
+
+div {
     background-color: azure;
+    padding: 10px;
+    width: 640px;
+    margin: 28px auto;
+    border-radius: 32px;
+    border: 2px solid black;
+}
+
+.title {
+    margin-top: 48px;
 }
