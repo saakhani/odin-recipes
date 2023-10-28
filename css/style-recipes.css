@@ -1,8 +1,8 @@
 img {
-    display: inline;
-    width: 960px;
     border-radius: 25px;
     border: 2px solid black;
+    width: inherit;
+    height: auto;
 }
 
 h1 {
@@ -55,10 +55,29 @@ div {
     background-color: azure;
     border-radius: 32px;
     border: 2px solid black;
-    padding: 16px;
     margin: 28px auto;
+    padding: 16px;
 }
 
 .title {
     margin-top: 48px;
 }
+
+.image {
+    width: 540px;
+    padding: 0px;
+    margin: 28px 14px 0 0;
+    border: 0px;
+    display: inline-block;
+    background-color: transparent;
+}
+
+.description {
+    display: inline-block;
+    padding: 16px;
+    margin: 28px 0 0 0;
+    width: 366px;
+    vertical-align: top;
+}
+
+
